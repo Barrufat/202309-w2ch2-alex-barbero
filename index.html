@@ -6,53 +6,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="favicon" href="favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed&display=swap" rel="stylesheet">
   <title>Mi Blog de Vacaciones</title>
 </head>
 
 <body>
   <ul class="nav-bar">
-    <li><a href="inicio">Inicio</a> </li>
-    <li><a href="destinos">Destinos</a> </li>
-    <li><a href="blog">Blog</a></li>
-    <li><a href="contacto">Contacto</a> </li>
+    <li class="nav-title"><a href="inicio">INICIO</a> </li>
+    <li class="nav-title"><a href="destinos">DESTINOS</a> </li>
+    <li class="nav-title"><a href="blog">BLOG</a></li>
+    <li class="nav-title"><a href="contacto">CONTACTO</a> </li>
   </ul>
 
-  <img src="./images/head.png" alt="head" width="100%" height="200px" />
-
   <main class="main-container">
-    <h1 class="page-title">Bienvenidos a mi blog de vacaciones</h1>
-    <h2 class="page-subtitle">Publicaciones de viajes</h2>
+    <h1 class="page-title">El mundo en una camper</h1>
+    <h2 class="page-subtitle">Mis últimas escapadas</h2>
     <section class="trip-box">
       <article class="article-box">
-        <h3>Mis vacaiones en París</h3>
-        <p>Contenido: Breve descripción de tu viaje a París</p>
+        <div class="article-title-container">
+          <h3>Mis vacaciones en Paris</h3>
+          <img src="./images/paris.png"/ alt="paris-icon" width="70px">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia aut nihil nesciunt nulla fuga voluptas rerum accusamus minima, doloribus est velit quibusdam, architecto molestiae libero ex? Rerum labore voluptates quisquam. Est vitae placeat, at ducimus obcaecati fugit a. Laboriosam.</p>
       </article>
       <article class="article-box">
-        <h3>Mis vacaiones en Nueva York
-        </h3>
-        <p>Contenido: Breve descripción de tu viaje a Nueva York
+        <div class="article-title-container">
+          <h3>Mis vacaciones en Nueva York</h3>
+          <img src="./images/ny.png"/ alt="ny-icon" width="70px">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi et dolorum, nulla, velit similique laboriosam explicabo at sit omnis est ducimus amet voluptates. Accusantium ipsam blanditiis libero facilis optio earum!
         </p>
       </article>
     </section>
     <section class="future-box">
-      <h2>Próximos viajes</h2>
+      <h2 class="future-title">Próximos viajes</h2>
       <ul class="future-trips">
         <li class="future-country1">
-          <h3>Australia</h3>
-          <img src="./images/australia.png" alt="Australia" width="300" height="200" />
+          <h3 class="future-subtitle">Australia</h3>
+          <img class="future-img" src="./images/australia.png" alt="Australia" width="300" height="200" />
         </li>
         <li class="future-country2">
-          <h3>Alemania</h3>
-          <img src="./images/alemania.png" alt="Alemania" width="300" height="200" />
+          <h3 class="future-subtitle">Alemania</h3>
+          <img class="future-img" src="./images/alemania.png" alt="Alemania" width="300" height="200" />
         </li>
         <li class="future-country3">
-          <h3>Turquia</h3>
-          <img src="./images/turquia.png" alt="Turquia" width="300" height="200" />
+          <h3 class="future-subtitle">Turquia</h3>
+          <img class="future-img" src="./images/turquia.png" alt="Turquia" width="300" height="200" />
         </li>
       </ul>
     </section>
   </main>
-  <footer>Adiosito amiguitos!</footer>
+  <footer> - Blog del Viajero perrofla Alex 2023 -</footer>
 </body>
 
 </html>
